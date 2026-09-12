@@ -38,7 +38,7 @@ export const myProjects = [
     ],
     href: "https://github.com/SAMARSHARMA1",
     logo: "",
-    image: "Public/assets/projects/IdeProject.png",
+    image: "public/assets/projects/IdeProject.png",
     tags: [
       { id: 1, name: "Next.js", path: "/assets/logos/nextdotjs.svg" },
       { id: 2, name: "Monaco", path: "/assets/logos/monica.svg" },
