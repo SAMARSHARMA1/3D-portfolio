@@ -128,7 +128,7 @@ export const mySocials = [
   {
     name: "GitHub",
     href: "https://github.com/SAMARSHARMA1",
-    icon: "Public/assets/logos/github.png",
+    icon: "/assets/logos/github.png",
   },
 ];
 
