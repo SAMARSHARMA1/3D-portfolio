@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // src/components/Project.jsx
 import React, { useState } from "react";
 import { motion } from "motion/react";
@@ -88,50 +87,3 @@ const Project = ({
 };
 
 export default Project;
-=======
-import React, { useState } from "react";
-import ProjectDetail from "./ProjectDetail";
-const Project = ({title,description,subDescription, href,image,
-    tags, setPreview}) => {
-        const [isHidden, setIsHidden]= useState(false);
-  return (
-    <>
-    <div className="flex flex-wrap items-start justify-between space-y-14 p-10"
-    onMouseEnter={()=>setPreview(image)}
-    onMouseLeave={()=>setPreview(null)}
-    >
-        <div>
-    <p className="text-2xl">{title}</p>
-
-      <div className="flex gap-5 mt-2 text-sand">
-      {tags.map((tag)=>(
-        <span key={tag.id}>{tag.name}</span>
-      ))}
-      
-    </div>
-</div>
-      <button onClick={()=>setIsHidden(true)} className="flex items-center gap-1 cursor-pointer
-      hover-animation">
-        Read More
-        <img src="assets/arrow-right.svg" className="w-5" />
-      </button>
-        </div>
-        <div className="bg-gradient-to-r from-transparent
-        via-neutral-700 to-transparent h-[1px] w-full"/>
-       {isHidden &&( <ProjectDetail
-        titel={title}
-        description={description}
-        subDescription={subDescription}
-        image={image}
-        tags={tags}
-        href={href}
-        closeModal={()=> setIsHidden(false)}
-        />)}
-        </>
-
-       
-  );
-};
-
-export default Project
->>>>>>> 4fd1fbdc02cf29c1820943210bb26b3fad0ae01e

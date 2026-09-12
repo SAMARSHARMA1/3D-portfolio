@@ -1,10 +1,6 @@
 @import "tailwindcss";
 @import url("https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap");
-<<<<<<< HEAD
 
-=======
-@import "tailwindcss";
->>>>>>> 4fd1fbdc02cf29c1820943210bb26b3fad0ae01e
 @theme {
   --color-primary: #030412;
   --color-midnight: #06091f;
@@ -20,10 +16,7 @@
   --color-sand: #d6995c;
   --color-coral: #ea4884;
   --animate-orbit: orbit 50s linear infinite;
-<<<<<<< HEAD
 
-=======
->>>>>>> 4fd1fbdc02cf29c1820943210bb26b3fad0ae01e
   @keyframes orbit {
     0% {
       transform: rotate(calc(var(--angle) * 1deg))
@@ -35,10 +28,7 @@
         rotate(calc((var(--angle) * -1deg) - 360deg));
     }
   }
-<<<<<<< HEAD
 
-=======
->>>>>>> 4fd1fbdc02cf29c1820943210bb26b3fad0ae01e
   --animate-marquee: marquee 50s linear infinite;
   --animate-marquee-vertical: marquee-vertical 50s linear infinite;
 
@@ -60,7 +50,6 @@
     }
   }
 }
-<<<<<<< HEAD
 
 /* ===== Smooth scroll setup ===== */
 html {
@@ -68,16 +57,10 @@ html {
   scroll-padding-top: 80px; /* Offset for fixed navbar */
 }
 
-=======
->>>>>>> 4fd1fbdc02cf29c1820943210bb26b3fad0ae01e
 body {
   background: #030412;
   font-family: "Funnel Display", sans-serif;
   color: white;
-<<<<<<< HEAD
-=======
-  scroll-behavior: smooth;
->>>>>>> 4fd1fbdc02cf29c1820943210bb26b3fad0ae01e
   overflow-x: hidden;
 }
 
@@ -117,10 +100,7 @@ body {
 .nav-link {
   @apply text-lg md:text-base hover:text-white transition-colors;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 4fd1fbdc02cf29c1820943210bb26b3fad0ae01e
 /* Button Components */
 .btn {
   @apply relative px-1 py-4 text-sm text-center rounded-full font-extralight bg-primary w-[12rem] cursor-pointer overflow-hidden;
@@ -154,11 +134,7 @@ body {
   @apply p-6 bg-gradient-to-tl from-[#3A3A3A] via-[#242424] to-[#3A3A3A] rounded-2xl;
 }
 
-<<<<<<< HEAD
 /* Contact Section */
-=======
-/* Contact Section*/
->>>>>>> 4fd1fbdc02cf29c1820943210bb26b3fad0ae01e
 .field-label {
   @apply text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70;
 }
@@ -169,7 +145,6 @@ body {
 
 .field-input-focus {
   @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/20;
-<<<<<<< HEAD
 }
 
 /* ===== Custom Scrollbar (Project Modal) ===== */
@@ -195,6 +170,4 @@ body {
 .custom-scroll {
   scrollbar-width: thin;
   scrollbar-color: #7a57db rgba(255, 255, 255, 0.03);
-=======
->>>>>>> 4fd1fbdc02cf29c1820943210bb26b3fad0ae01e
 }
